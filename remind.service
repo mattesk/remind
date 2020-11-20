@@ -1,0 +1,11 @@
+
+[Unit]
+Description=check reminder file and send notification email
+After=syslog.target network.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /usr/local/remind/remind.sh
+
+[Install]
+WantedBy=multi-user.target

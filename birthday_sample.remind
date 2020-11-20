@@ -1,0 +1,18 @@
+# 
+#  birthday.remind database
+#
+
+$text: birthday
+$subject: BIRTHDAY
+$time: 9:00
+
+$c1: 1d     // 1day
+
+$m1: your@email.com
+
+1973-01-15 0          alf
+0000-07-12 19:23:15   foo
+0000-08-08 0          neighbour joe
+0000-07-29 0          annie
+0000-12-24 0          santa
+
